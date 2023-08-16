@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body {
+    margin:0px;
+    background-color:#f1efef
+}
+
+#headPart {
+    font-family: 'itim';
+    font-weight: 400;
+    font-size: 30px;
+    object-fit: fill;
+    width:100%;
+    height:50px;
+    text-align:center;
+    background-color:rgb(0, 0, 0) ;
+    padding:5px;
+    color:rgb(255, 255, 255);
+    margin:0px;
+}
+
+#window {
+    margin-top: 3%;
+    margin-right:15%;
+    margin-left:15%;
+    margin-bottom: 5%;
+    background-color:white;
+    padding:5%;
+    border-radius: 12px;
+    object-fit: fill;
+}
+img {
+    object-fit: cover;
+    border-radius: 12px;
+    width:100%;
+    height:355px;
+}
+h2 {
+    font-family: 'inter';
+    font-size: 25px;
+    margin-top:15px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 8px;
+    text-align:left;
+}
+h4 {
+    font-family: 'inter';
+    font-size: 18px;
+    margin-top:15px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    text-align:left;
+}
+h5 {
+    font-family: 'inter';
+    font-size: 15px;
+    color:#E5C416;
+    margin:0px;
+}
+
+h6 {
+    font-family: 'inter';
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#ticket{
+    font-family: 'inter';
+    font-weight: bold;
+    background-color: #E5C416;
+    border-color: black;
+    border-radius: 8px;
+    width: 120px;
+    height:30px;
+}
+#forButton{
+    margin-top: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h7 {
+    display:block;
+    font-family: 'inter';
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 15px; 
+}
+
+#box, #boothSize {
+    font-family: 'inter';
+    font-weight: thin;
+    background-color: #ffedba;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height:20px;
+    border-width:thin;
+}
+
+#extraTable {
+    font-family: 'inter';
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 15px; 
+}
