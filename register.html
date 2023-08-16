@@ -3,6 +3,7 @@
 <head>
     <title>PuppyEvent book</title>
     <link rel="stylesheet" href="event.css">
+    <script src="register.js"></script>
 </head>
 <body>
     <div id="tab">
@@ -12,23 +13,25 @@
             <h2>Book a booth</h2>
             <h5>Please fill the information below</h5>
             <h7>Company Name</h7>
-            <input type="text" id="box" placeholder="company A">
-            <h7>Booth Size</h7>
-            <select id="boothSize" name="boothSize" size="1">
-                <option>10x10 ft.</option>
-                <option>10x15 ft.</option>
-            </select> <br>
-            <input type="checkbox" id="extraTable">
-            <label for="extraTable" id="extraTable">Extra Table</label>
-            <h7>Number of chairs</h7>
-            <input type="text" id="box" placeholder="99">
-            <h7>Person name</h7>
-            <input type="text" id="box" placeholder="Somchai Yingyai">
-            <h7>Phone number</h7>
-            <input type="text" id="box" placeholder="0123456789">
-
+            <form name="register">
+                <input type="text" id="box" name="companyName" placeholder="company A">
+                <h7>Booth Size</h7>
+                <select id="boothSize" name="boothSize" size="1">
+                    <option value="nothing">Please select the size</option>
+                    <option>10x10 ft.</option>
+                    <option>10x15 ft.</option>
+                </select> <br>
+                <input type="checkbox" id="extraTable">
+                <label for="extraTable" id="extraTable">Extra Table</label>
+                <h7>Number of chairs</h7>
+                <input type="text" id="box" name="numberChair" placeholder="99">
+                <h7>Person name</h7>
+                <input type="text" id="box" name="personName" placeholder="Somchai Yingyai">
+                <h7>Phone number</h7>
+                <input type="text" id="box" name="phoneNumber" placeholder="0123456789">
+            </form>
             <div id="forButton">
-                <input type="button" id="ticket" value="SUBMIT">
+                <input type="button" id="ticket" value="SUBMIT" onclick="check();">
             </div>
         </div>
 </body>
